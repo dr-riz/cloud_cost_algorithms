@@ -1,0 +1,25 @@
+= cvs tag comments =
+== CloudWlMgmt (Static) ==
+- QNM predictions for static cases for both open and closed models
+- closed: implemented multi-class, multi-center approx mva -- validated against book examples
+- Added more actions: ADD_EXPENSIVE, DOWNGRADE, LOADBALANCE, DOWNSIZE
+- SLA & binary penalty model
+- validation scenarios
+- predictions using luis response time values
+- csv: extending, refactoring, abstracting
+- plug & play VMs
+- bug fixing: algo.
+
+== FGCS ==
+- using only greedy and adaptiveGreedy'
+- QNM predictions for static cases for closed models
+- Revised cost model
+- handle case when #classes < #cores on a VM
+- fixing bugs
+
+== FractionalWorkloads ==
+- defining workloads in terms of fractions
+- userload is part of attributes
+- added weka based prediction model to give predictions over fractional workloads
+- updated cost model to generate prediction over fractional workloads
+- inaccurate cost model 
